@@ -11,7 +11,7 @@ spec:
   #   - echo.starter-kit.online
   #   secretName: letsencrypt-nginx-echo
   rules:
-    - host: echo.starter-kit.online
+    - host: k8s-controller
       http:
         paths:
           - path: /
