@@ -41,7 +41,7 @@ metadata:
     nginx.ingress.kubernetes.io/ssl-redirect: "false"
 spec:
   rules:
-  - host: alessonviana.tech
+  - host: k8s-node
     http:
       paths:
         - path: /
